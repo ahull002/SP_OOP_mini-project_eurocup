@@ -21,4 +21,4 @@ FROM
 INNER JOIN
 	germany_gk ON md.player_gk = germany_gk.player_id
 WHERE
-	play_stage = "G" AND team_id = "1208"
+	play_stage = "G"

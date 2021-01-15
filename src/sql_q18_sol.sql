@@ -4,7 +4,7 @@ WITH max_foul AS (
 
 SELECT 
     pb.match_no,
-    COUNT(pb.sent_off = "Y") AS foul_cards
+    COUNT(pb.sent_off) AS foul_cards
 FROM
     euro_cup_2016.player_booked AS pb
 WHERE
